@@ -1,0 +1,74 @@
+body {
+margin:0;
+padding:0;
+text-align: center;
+background-color: white;
+font-family: 'Reenie Beanie', cursive;
+
+}
+
+.contact-title {
+
+  margin-top: 100px;
+  color: black;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+  }
+.contact-title h1 {
+  font-size: 32px;
+  line-height: 10px;
+}
+
+.contact-title h2 {
+font-size: 16px;
+}
+
+
+form{
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+}
+.form-control {
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+input {
+  height: 45px;
+}
+
+form .submit {
+  background-color: darkblue;
+  border-color: transparent;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+  font-family: 'Reenie Beanie', cursive;
+
+}
+
+form .submit:hover {
+  background-color: pink;
+  cursor: pointer;
+}
+
+.phil {
+  width: 140px;
+}
+
+li {
+  font-size: 30px;
+  display:inline;
+  float: right;
+  clear: both;
+padding: 10px;
+}
